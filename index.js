@@ -1,51 +1,51 @@
 const obj = {
   firstname:'vignesh',
 
-  getfirstname: function(){
+  getfirstname: function(){    //get function
     return this.firstname
   },
-  setfirstname: function(name){
+  setfirstname: function(name){  //set function
   this.firstname = name
   },
 
   lastname:'balaji',
-  getlastname: function(){
+  getlastname: function(){    //get function
     return this.lastname
   },
-  setlastname: function(name){
+  setlastname: function(name){    //set function
   this.lastname = name
   },
 
   dob:'14/07/1999',
-  getdob: function(){
+  getdob: function(){   //get function
     return this.dob
   },
-  setdob: function(name){
+  setdob: function(name){   //set function
   this.dob = name
   },
 
   age:20,
-  getage: function(){
+  getage: function(){   //get function
     return this.age
   },
-  setage: function(name){
+  setage: function(name){   //set function
   this.age = name
   },
 
   native:'coimbatore',
-  getnative: function(){
+  getnative: function(){    //get function
     return this.native
   },
-  setnative: function(name){
+  setnative: function(name){   //set function
   this.native = name
   },
 
 
   intrest:'biking',
-  getintrest: function(){
+  getintrest: function(){   //get function
     return this.intrest
   },
-  setintrest: function(name){
+  setintrest: function(name){   //set function
   this.intrest = name
   },
 
