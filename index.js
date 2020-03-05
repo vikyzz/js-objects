@@ -79,5 +79,27 @@ console.log('intrest',obj.getintrest())
 obj.setintrest('gymming')
 console.log('intrest',obj.getintrest())
 
+//-----------------------------------------------------------------------
 
+
+function fn(id){
+  this.name = 'vicky' //this makes it as public
+  let ids = id   //private variable
+
+  this.setid = function(id){
+    ids = id;
+  }
+  this.getid = function(){
+    return ids;
+  }
+}
+
+const v = new fn();
+console.log(v.name)
+console.log(v.id) // cannot access private variables from functions
+
+
+const fn = new fn(10);
+fn.setid(2)
+console.log(fn.getid())
 
